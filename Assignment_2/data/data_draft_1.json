@@ -1,0 +1,243 @@
+{
+  "time": {
+    "num_days": 7
+  },
+  "demand": {
+    "weekly_MWh": 12612
+  },
+  "technologies": [
+    "Oil",
+    "Gas",
+    "Coal"
+  ],
+  "max_gen_MWh_per_day": {
+    "Oil": 1200.0,
+    "Gas": 960.0,
+    "Coal": 720.0
+  },
+  "storage_capacity_MWh": {
+    "Oil": 3600.0,
+    "Gas": 2880.0,
+    "Coal": 2160.0
+  },
+  "storage_rent_EUR_per_MWh_per_day": {
+    "Oil": 1.5,
+    "Gas": 1.0,
+    "Coal": 0.8
+  },
+  "initial_inventory_MWh": {
+    "Oil": 0.0,
+    "Gas": 0.0,
+    "Coal": 0.0
+  },
+  "suppliers": {
+    "Oil": [
+      "Oil_Supplier_1",
+      "Oil_Supplier_2",
+      "Oil_Supplier_3"
+    ],
+    "Gas": [
+      "Gas_Supplier_1",
+      "Gas_Supplier_2",
+      "Gas_Supplier_3"
+    ],
+    "Coal": [
+      "Coal_Supplier_1",
+      "Coal_Supplier_2",
+      "Coal_Supplier_3"
+    ]
+  },
+  "fuel_bids": {
+    "Oil": {
+      "Oil_Supplier_1": {
+        "price_EUR_per_MWh": [
+          99.4,
+          98.7,
+          98.2,
+          109.5,
+          112.3,
+          125.2,
+          122.2
+        ],
+        "max_MWh_per_day": [
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0
+        ]
+      },
+      "Oil_Supplier_2": {
+        "price_EUR_per_MWh": [
+          98.9,
+          99.1,
+          98.7,
+          97.4,
+          99.4,
+          100.9,
+          101.9
+        ],
+        "max_MWh_per_day": [
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0
+        ]
+      },
+      "Oil_Supplier_3": {
+        "price_EUR_per_MWh": [
+          108.3,
+          102.2,
+          98.6,
+          102.1,
+          105.4,
+          114.5,
+          114.1
+        ],
+        "max_MWh_per_day": [
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0
+        ]
+      }
+    },
+    "Gas": {
+      "Gas_Supplier_1": {
+        "price_EUR_per_MWh": [
+          100.3,
+          97.2,
+          111.6,
+          118.3,
+          147.3,
+          149.9,
+          154.0
+        ],
+        "max_MWh_per_day": [
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0
+        ]
+      },
+      "Gas_Supplier_2": {
+        "price_EUR_per_MWh": [
+          75.9,
+          73.2,
+          73.4,
+          74.7,
+          77.6,
+          89.2,
+          86.4
+        ],
+        "max_MWh_per_day": [
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0
+        ]
+      },
+      "Gas_Supplier_3": {
+        "price_EUR_per_MWh": [
+          81.8,
+          81.5,
+          85.2,
+          76.0,
+          110.5,
+          121.7,
+          121.5
+        ],
+        "max_MWh_per_day": [
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0
+        ]
+      }
+    },
+    "Coal": {
+      "Coal_Supplier_1": {
+        "price_EUR_per_MWh": [
+          76.5,
+          73.5,
+          65.7,
+          80.0,
+          78.5,
+          75.1,
+          77.5
+        ],
+        "max_MWh_per_day": [
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0,
+          1152.0
+        ]
+      },
+      "Coal_Supplier_2": {
+        "price_EUR_per_MWh": [
+          70.1,
+          71.7,
+          70.1,
+          75.3,
+          72.1,
+          70.8,
+          69.7
+        ],
+        "max_MWh_per_day": [
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0,
+          2304.0
+        ]
+      },
+      "Coal_Supplier_3": {
+        "price_EUR_per_MWh": [
+          81.5,
+          96.8,
+          100.9,
+          115.2,
+          116.4,
+          132.4,
+          132.5
+        ],
+        "max_MWh_per_day": [
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0,
+          3456.0
+        ]
+      }
+    }
+  },
+  "demand_bid": {
+    "type": "inelastic",
+    "quantity_MWh": 12612,
+    "value_EUR_per_MWh": 1000.0
+  }
+}
