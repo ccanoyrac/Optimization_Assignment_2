@@ -102,7 +102,7 @@ Created with volatility profiles analogous to fuel markets.
 The objective becomes:
 
 $$
-\max_{x} \; \mathbb{E}[\text{profit}(x,\omega)] \;-\; \lambda \cdot \text{CVaR}_{\alpha}(\text{Loss})
+\max_{x} \; \mathbb{E}[\text{profit}(x,\omega)] - \lambda \cdot \text{CVaR}_{\alpha}(\text{Loss})
 $$
 
 
