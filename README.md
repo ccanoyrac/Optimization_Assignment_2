@@ -208,7 +208,12 @@ $$
 │     ├── data_draft_2.json
 │     ├── data_draft_3.json
 │
+│── plots/
+│     ├── ...
+│
 │── Assignment_2.ipynb
+│
+│── Assignment_2.pdf
 │
 │── README.md
 ```
